@@ -155,7 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Mamadou Cherif BA - [Github](https://github.com/maba-dev)  
-Kevin Comte - [Github](https://github.com/)
+Kevin Comte - [Github](https://github.com/MrOmnes)
 
 Second part of Airbnb: Joann Vuong
 ## License
