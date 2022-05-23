@@ -24,7 +24,7 @@ if __name__ == "__main__":
         threaded=True
         )
 
+
 @app.errorhandler(404)
 def handler404(e):
     return jsonify({"error": "Not found"}), 404
-    
