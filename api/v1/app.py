@@ -23,3 +23,8 @@ if __name__ == "__main__":
         host=getenv('HBNB_API_HOST'), port=getenv('HBNB_API_PORT'),
         threaded=True
         )
+
+@app.errorhandler(404)
+def handler404(e):
+    return jsonify({"error": "Not found"}), 404
+    
